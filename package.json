@@ -1,0 +1,32 @@
+{
+  "name": "fundraiser-app",
+  "version": "1.0.0",
+  "description": "This is a simple fundraising app for events.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HakzTV/lets-fund.git"
+  },
+  "author": "Telvin Varfley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HakzTV/lets-fund/issues"
+  },
+  "homepage": "https://github.com/HakzTV/lets-fund#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
